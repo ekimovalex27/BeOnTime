@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutApplicationName.Text" xml:space="preserve">
+    <value>Будьте вчасно</value>
+  </data>
+  <data name="AboutAuthor.Text" xml:space="preserve">
+    <value>АВТОРИ</value>
+  </data>
+  <data name="AboutDescription.Text" xml:space="preserve">
+    <value>Допомагає планувати час виїзду за заданим маршрутом</value>
+  </data>
+  <data name="AboutDesign.Text" xml:space="preserve">
+    <value>ЛОГОТИП</value>
+  </data>
+  <data name="AboutLicense.Text" xml:space="preserve">
+    <value>ЛІЦЕНЗІЇ, ЯКІ ВИКОРИСТОВУЮТЬСЯ</value>
+  </data>
+  <data name="AboutPlatform.Text" xml:space="preserve">
+    <value>ІНШІ ПЛАТФОРМИ</value>
+  </data>
+  <data name="AboutPlatformAppStore.Text" xml:space="preserve">
+    <value>Скоро в App Store</value>
+  </data>
+  <data name="AboutPlatformGooglePlay.Text" xml:space="preserve">
+    <value>Скоро в Google Play</value>
+  </data>
+  <data name="AboutSupport.Text" xml:space="preserve">
+    <value>ПІДТРИМКА</value>
+  </data>
+  <data name="AboutTranslate.Text" xml:space="preserve">
+    <value>ПЕРЕКЛАДАЧІ</value>
+  </data>
+  <data name="AboutTranslateAuthor1.Content" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AboutVersion.Text" xml:space="preserve">
+    <value>ВЕРСІЯ</value>
+  </data>
+  <data name="CalcAppbarDepartureLocation.Label" xml:space="preserve">
+    <value>Розташування</value>
+  </data>
+  <data name="CalcappbarExchangeAddress.Label" xml:space="preserve">
+    <value>Обмін адресами</value>
+  </data>
+  <data name="CalcArrivalTime.Text" xml:space="preserve">
+    <value>Коли треба прибути?</value>
+  </data>
+  <data name="CalcDepartureText1" xml:space="preserve">
+    <value>Виїхати через</value>
+  </data>
+  <data name="CalcDepartureText2" xml:space="preserve">
+    <value>Виїхати зараз</value>
+  </data>
+  <data name="CalcEqulAddress" xml:space="preserve">
+    <value>Адреса відправлення/прибуття збігаються</value>
+  </data>
+  <data name="CalcErrorRoute" xml:space="preserve">
+    <value>Не можливо прокласти маршрут</value>
+  </data>
+  <data name="CalcMode.Text" xml:space="preserve">
+    <value>На чому їхати?</value>
+  </data>
+  <data name="CalcTimeAnd" xml:space="preserve">
+    <value>і</value>
+  </data>
+  <data name="CalcTimeDay" xml:space="preserve">
+    <value>дн.</value>
+  </data>
+  <data name="CalcTimeHour" xml:space="preserve">
+    <value>ч.</value>
+  </data>
+  <data name="CalcTimeIn" xml:space="preserve">
+    <value>в</value>
+  </data>
+  <data name="CalcTimeMinute" xml:space="preserve">
+    <value>хв.</value>
+  </data>
+  <data name="CalcTimeNotNeed" xml:space="preserve">
+    <value>І їхати нікуди не треба</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic1" xml:space="preserve">
+    <value>Звичайний час вийшов</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic2" xml:space="preserve">
+    <value>Час у дорозі</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic3" xml:space="preserve">
+    <value>без заторів</value>
+  </data>
+  <data name="CalcTimeWithTraffic1" xml:space="preserve">
+    <value>Час відправлення з урахуванням заторів вийшов</value>
+  </data>
+  <data name="CalcTimeWithTraffic2" xml:space="preserve">
+    <value>Час у дорозі</value>
+  </data>
+  <data name="CalcTimeWithTraffic3" xml:space="preserve">
+    <value>з заторами</value>
+  </data>
+  <data name="CalcTxtArrival.PlaceholderText" xml:space="preserve">
+    <value>Адреса прибуття</value>
+  </data>
+  <data name="CalcTxtArrivalError.Text" xml:space="preserve">
+    <value>Адреса прибуття пуста </value>
+  </data>
+  <data name="CalcTxtCalculateError.Text" xml:space="preserve">
+    <value>Не можливо прокласти маршрут</value>
+  </data>
+  <data name="CalcTxtDeparture.PlaceholderText" xml:space="preserve">
+    <value>Адреса відправлення</value>
+  </data>
+  <data name="CalcTxtDepartureError.Text" xml:space="preserve">
+    <value>Адреса відправлення пуста</value>
+  </data>
+  <data name="MainHeader.Text" xml:space="preserve">
+    <value>Будьте вчасно</value>
+  </data>
+  <data name="MainNavigationItem1.Text" xml:space="preserve">
+    <value>Обчислення часу</value>
+  </data>
+  <data name="MainNavigationItem2.Text" xml:space="preserve">
+    <value>Уподобання</value>
+  </data>
+  <data name="MainNavigationItem3.Text" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="MainNavigationItem4.Text" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="MainNavigationItem5.Text" xml:space="preserve">
+    <value>Зворотній зв'язок</value>
+  </data>
+  <data name="ManifestApplicationDescription" xml:space="preserve">
+    <value>Программа допомагає спланувати час відправлення</value>
+  </data>
+  <data name="ManifestApplicationDisplayName" xml:space="preserve">
+    <value>Будьте вчасно</value>
+  </data>
+  <data name="ManifestPackagingPackageDisplayName" xml:space="preserve">
+    <value>Будьте вчасно</value>
+  </data>
+  <data name="ManifestVisualAssetsShortName" xml:space="preserve">
+    <value>Будьте вчасно</value>
+  </data>
+  <data name="SettingsAvoid.Text" xml:space="preserve">
+    <value>Уникайте на маршруті</value>
+  </data>
+  <data name="SettingsAvoidFerries.Content" xml:space="preserve">
+    <value>Пароми</value>
+  </data>
+  <data name="SettingsAvoidHighways.Content" xml:space="preserve">
+    <value>Автомагістралі</value>
+  </data>
+  <data name="SettingsAvoidIndoor.Content" xml:space="preserve">
+    <value>Тунелі</value>
+  </data>
+  <data name="SettingsAvoidNote.Text" xml:space="preserve">
+    <value>Додавання обмежень не виключає маршрутів, які містять небажані об'єкти, а просто дозволяє змінити результат на кращий </value>
+  </data>
+  <data name="SettingsAvoidNoteHeader.Text" xml:space="preserve">
+    <value>Примітка:</value>
+  </data>
+  <data name="SettingsAvoidTolls.Content" xml:space="preserve">
+    <value>Платні дороги</value>
+  </data>
+  <data name="SettingsPivotItemAvoid.Header" xml:space="preserve">
+    <value>Обмеження маршруту</value>
+  </data>
+  <data name="SettingsPivotItemTheme.Header" xml:space="preserve">
+    <value>Зовнішній вигляд</value>
+  </data>
+  <data name="SettingsPivotItemTrafficModel.Header" xml:space="preserve">
+    <value>Розрахунок трафіку</value>
+  </data>
+  <data name="SettingsPivotItemTransit.Header" xml:space="preserve">
+    <value>Громадський транспорт</value>
+  </data>
+  <data name="SettingsThemeBlack.Content" xml:space="preserve">
+    <value>Чорний фон</value>
+  </data>
+  <data name="SettingsThemeBlue.Content" xml:space="preserve">
+    <value>Синій фон</value>
+  </data>
+  <data name="SettingsThemeDialogText" xml:space="preserve">
+    <value>Потрібно перезапустити програму, щоб побачити зміни</value>
+  </data>
+  <data name="SettingsThemeDialogTitle" xml:space="preserve">
+    <value>Зміна теми</value>
+  </data>
+  <data name="SettingsThemeGreen.Content" xml:space="preserve">
+    <value>Зелений фон</value>
+  </data>
+  <data name="SettingsTrafficModelBestGuess.Content" xml:space="preserve">
+    <value>Найкраща оцінка часу</value>
+  </data>
+  <data name="SettingsTrafficModelOptimistic.Content" xml:space="preserve">
+    <value>Оптимістична оцінка часу</value>
+  </data>
+  <data name="SettingsTrafficModelPessimistic.Content" xml:space="preserve">
+    <value>Песимістичні оцінка часу</value>
+  </data>
+  <data name="SettingsTransit.Text" xml:space="preserve">
+    <value>Пріоритет пересуванню на</value>
+  </data>
+  <data name="SettingsTransitBus.Content" xml:space="preserve">
+    <value>автобусі</value>
+  </data>
+  <data name="SettingsTransitSubway.Content" xml:space="preserve">
+    <value>Підземці</value>
+  </data>
+  <data name="SettingsTransitTrain.Content" xml:space="preserve">
+    <value>Потягу</value>
+  </data>
+  <data name="SettingsTransitTram.Content" xml:space="preserve">
+    <value>Трамваї</value>
+  </data>
+  <data name="GeolocationArgumentOutOfRangeException" xml:space="preserve">
+    <value>Позиціонування помилка</value>
+  </data>
+  <data name="GeolocationDenied" xml:space="preserve">
+    <value>Будь ласка, дайте доступ прграммі, щоб визначити ваше місце розташування</value>
+  </data>
+  <data name="GeolocationTaskCanceledException" xml:space="preserve">
+    <value>Минув час очікування позиціонування</value>
+  </data>
+  <data name="GeolocationUnspecified" xml:space="preserve">
+    <value>Помилка позиціювання</value>
+  </data>
+  <data name="SettingsThemeLanuage.Header" xml:space="preserve">
+    <value>Мова інтерфейсу</value>
+  </data>
+  <data name="SettingsThemeLanuage.PlaceholderText" xml:space="preserve">
+    <value>Вибрати мову</value>
+  </data>
+  <data name="SettingsThemeBackground.Text" xml:space="preserve">
+    <value>Колір теми</value>
+  </data>
+  <data name="SettingsPivotItemCommon.Header" xml:space="preserve">
+    <value>Загальні</value>
+  </data>
+  <data name="MainNavigationItem6.Text" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="MainNavigationItem7.Text" xml:space="preserve">
+    <value>Що нового</value>
+  </data>
+  <data name="SettingsHistoryClear.Content" xml:space="preserve">
+    <value>Очистити журнал</value>
+  </data>
+  <data name="SettingsHistorySave.Header" xml:space="preserve">
+    <value>Зберегти історію</value>
+  </data>
+  <data name="SettingsHistoryClearDialogContent" xml:space="preserve">
+    <value>Справді очистити журнал?</value>
+  </data>
+  <data name="SettingsHistoryClearDialogPrimaryButtonText" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="SettingsHistoryClearDialogSecondaryButtonText" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="SettingsHistoryClearText.Text" xml:space="preserve">
+    <value>Історії є порожнім</value>
+  </data>
+  <data name="SettingsPivotItemHistory.Header" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="HeaderPage1" xml:space="preserve">
+    <value>Обчислення часу</value>
+  </data>
+  <data name="HeaderPage2" xml:space="preserve">
+    <value>Уподобання</value>
+  </data>
+  <data name="HeaderPage3" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="HeaderPage4" xml:space="preserve">
+    <value>Про програму</value>
+  </data>
+  <data name="HeaderPage5" xml:space="preserve">
+    <value>Відгук</value>
+  </data>
+  <data name="HeaderPage6" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="HeaderPage7" xml:space="preserve">
+    <value>Що нового</value>
+  </data>
+  <data name="HistoryGoToSettings1.Text" xml:space="preserve">
+    <value>Збереження історії вимкнуто</value>
+  </data>
+  <data name="HistoryGoToSettings2.Content" xml:space="preserve">
+    <value>Клацніть для налаштування</value>
+  </data>
+  <data name="CalcAppbarHistory.Label" xml:space="preserve">
+    <value>Журнал</value>
+  </data>
+  <data name="HeaderPage8" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="HistoryClear.Label" xml:space="preserve">
+    <value>Очистити все</value>
+  </data>
+  <data name="HistoryDelete.Label" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="FavoritesDeleteDialogContent" xml:space="preserve">
+    <value>Ви дійсно бажаєте видалити вибрані уподобання?</value>
+  </data>
+  <data name="FavoritesDeleteDialogPrimaryButtonText" xml:space="preserve">
+    <value>Так</value>
+  </data>
+  <data name="FavoritesDeleteDialogSecondaryButtonText" xml:space="preserve">
+    <value>Ні</value>
+  </data>
+  <data name="FavoritesDelete.Label" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="FavoritesEdit.Label" xml:space="preserve">
+    <value>Редагування</value>
+  </data>
+  <data name="PositionInClipboard.Text" xml:space="preserve">
+    <value>GPS координати скопійовано до буфера обміну</value>
+  </data>
+  <data name="appbarCalcPage.Label" xml:space="preserve">
+    <value>Обчислення</value>
+  </data>
+  <data name="HistoryAddToFavorites.Label" xml:space="preserve">
+    <value>Додати в Уподобання</value>
+  </data>
+  <data name="HistoryAddToFavoritesTitle" xml:space="preserve">
+    <value>Додано з Iсторії</value>
+  </data>
+  <data name="appbarShowOnMap.Label" xml:space="preserve">
+    <value>Карта</value>
+  </data>
+  <data name="appbarPositionCopy.Label" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="HistoryAddToFavoritesNote.Text" xml:space="preserve">
+    <value>Додано до Уподобання</value>
+  </data>
+  <data name="HeaderPage9" xml:space="preserve">
+    <value>Уподобання редагування</value>
+  </data>
+  <data name="cmdCancel.Content" xml:space="preserve">
+    <value>Відмінити
+</value>
+  </data>
+  <data name="cmdOk.Content" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="FavoritesItemName.Text" xml:space="preserve">
+    <value>Ім'я</value>
+  </data>
+</root>

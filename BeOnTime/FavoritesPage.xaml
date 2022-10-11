@@ -1,0 +1,62 @@
+﻿<Page
+    x:Class="BeOnTime.FavoritesPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeOnTime"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+  <Page.BottomAppBar>
+    <CommandBar x:Name="cmdBarFavoritesPage" DefaultLabelPosition="Right">
+      <AppBarButton x:Name="appbarCalc" x:Uid="appbarCalcPage" Label="Расчёт" Click="appbarCalc_Click">
+        <AppBarButton.Icon>
+          <FontIcon Glyph="&#xE916;"/>
+        </AppBarButton.Icon>
+      </AppBarButton>
+      <AppBarButton x:Name="appbarFavoritesEdit" x:Uid="FavoritesEdit" Icon="Edit" Label="Изменить" Click="appbarFavoritesEdit_Click"/>
+      <AppBarButton x:Name="appbarShowOnMap" x:Uid="appbarShowOnMap" Icon="Map" Label="Карта" Click="appbarShowOnMap_Click"  />
+      <AppBarButton x:Name="appbarFavoritesCopyPosition" x:Uid="appbarPositionCopy" Icon="Copy" Label="GPS" Click="appbarFavoritesCopyPosition_Click"/>
+
+      <CommandBar.SecondaryCommands>
+        <AppBarButton x:Name="appbarFavoritesDelete" x:Uid="FavoritesDelete" Icon="Delete" Label="Удалить" Click="appbarFavoritesDelete_Click"/>
+      </CommandBar.SecondaryCommands>
+    </CommandBar>
+  </Page.BottomAppBar>
+  
+  <Grid>
+
+    <FlyoutBase.AttachedFlyout>
+      <Flyout x:Name="flayoutCopyPosition">
+        <StackPanel  BorderThickness="0">
+          <TextBlock x:Uid="PositionInClipboard" Text="Координаты скопированы в буфер обмена" Foreground="Black" />
+        </StackPanel>
+      </Flyout>
+    </FlyoutBase.AttachedFlyout>
+
+    <Grid.RowDefinitions>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+
+    <StackPanel x:Name="spTop" Orientation="Vertical" Grid.Row="0">
+      <TextBlock x:Name="FavoritesEmptyText" x:Uid="FavoritesEmptyText" Text="Избранное пусто" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="0,50,0,0" />
+    </StackPanel>
+
+    <ListView x:Name="lvFavorites" Grid.Row="1">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <StackPanel Orientation="Vertical">
+            <TextBlock Text="{Binding Name}" Foreground="White"/>
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="{Binding DateAdd}" Foreground="White" FontSize="11"/>
+              <TextBlock Text="{Binding Address}" Foreground="White" FontSize="11" Margin="15,0,0,0"/>
+            </StackPanel>
+          </StackPanel>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+
+  </Grid>
+  
+</Page>

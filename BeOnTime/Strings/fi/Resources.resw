@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutApplicationName.Text" xml:space="preserve">
+    <value>Ole ajoissa</value>
+  </data>
+  <data name="AboutAuthor.Text" xml:space="preserve">
+    <value>TEKIJÄT</value>
+  </data>
+  <data name="AboutDescription.Text" xml:space="preserve">
+    <value>Liite auttaa suunnitella matkan lähtöaikaa</value>
+  </data>
+  <data name="AboutDesign.Text" xml:space="preserve">
+    <value>LOGOTYYPPI</value>
+  </data>
+  <data name="AboutLicense.Text" xml:space="preserve">
+    <value>KÄYTETYT LISENSSIT</value>
+  </data>
+  <data name="AboutPlatform.Text" xml:space="preserve">
+    <value>MUITA ALUSTOJA</value>
+  </data>
+  <data name="AboutPlatformAppStore.Text" xml:space="preserve">
+    <value>Kohta on App Storessa</value>
+  </data>
+  <data name="AboutPlatformGooglePlay.Text" xml:space="preserve">
+    <value>Kohta on Google Playssa</value>
+  </data>
+  <data name="AboutSupport.Text" xml:space="preserve">
+    <value>TUKI</value>
+  </data>
+  <data name="AboutTranslate.Text" xml:space="preserve">
+    <value>KÄÄNTÄJÄT</value>
+  </data>
+  <data name="AboutTranslateAuthor1.Content" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AboutVersion.Text" xml:space="preserve">
+    <value>VERSIO</value>
+  </data>
+  <data name="CalcAppbarDepartureLocation.Label" xml:space="preserve">
+    <value>Sijainti</value>
+  </data>
+  <data name="CalcappbarExchangeAddress.Label" xml:space="preserve">
+    <value>Osoitteiden vaihto</value>
+  </data>
+  <data name="CalcArrivalTime.Text" xml:space="preserve">
+    <value>Milloin pitää tulla?</value>
+  </data>
+  <data name="CalcDepartureText1" xml:space="preserve">
+    <value>Pitää lähteä kautta </value>
+  </data>
+  <data name="CalcDepartureText2" xml:space="preserve">
+    <value>Pitää lähteä heti nyt</value>
+  </data>
+  <data name="CalcEqulAddress" xml:space="preserve">
+    <value>Lähtöpaikan/ saapumispaikan osoite on sama</value>
+  </data>
+  <data name="CalcErrorRoute" xml:space="preserve">
+    <value>Ei voi laskea reittia</value>
+  </data>
+  <data name="CalcMode.Text" xml:space="preserve">
+    <value>Millä matkustat?</value>
+  </data>
+  <data name="CalcTimeAnd" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="CalcTimeDay" xml:space="preserve">
+    <value>päivää</value>
+  </data>
+  <data name="CalcTimeHour" xml:space="preserve">
+    <value>tuntia</value>
+  </data>
+  <data name="CalcTimeIn" xml:space="preserve">
+    <value>kello</value>
+  </data>
+  <data name="CalcTimeMinute" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="CalcTimeNotNeed" xml:space="preserve">
+    <value>Ja ei tarvitse mennä mihinkään</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic1" xml:space="preserve">
+    <value>Tavallinen tuloaika on</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic2" xml:space="preserve">
+    <value>Matka-aika</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic3" xml:space="preserve">
+    <value>ilman ruuhkia</value>
+  </data>
+  <data name="CalcTimeWithTraffic1" xml:space="preserve">
+    <value>Lähtöaika ruuhkien kanssa</value>
+  </data>
+  <data name="CalcTimeWithTraffic2" xml:space="preserve">
+    <value>Matka-aika</value>
+  </data>
+  <data name="CalcTimeWithTraffic3" xml:space="preserve">
+    <value>ruuhkien kanssa</value>
+  </data>
+  <data name="CalcTxtArrival.PlaceholderText" xml:space="preserve">
+    <value>Saapumisosoite</value>
+  </data>
+  <data name="CalcTxtArrivalError.Text" xml:space="preserve">
+    <value>Saapumisosoite on tyhjä</value>
+  </data>
+  <data name="CalcTxtCalculateError.Text" xml:space="preserve">
+    <value>Ei voi laskea reittia</value>
+  </data>
+  <data name="CalcTxtDeparture.PlaceholderText" xml:space="preserve">
+    <value>Lähtöosoite</value>
+  </data>
+  <data name="CalcTxtDepartureError.Text" xml:space="preserve">
+    <value>Lähtöosoite on tyhjä</value>
+  </data>
+  <data name="MainHeader.Text" xml:space="preserve">
+    <value>pitää olla ajoissa</value>
+  </data>
+  <data name="MainNavigationItem1.Text" xml:space="preserve">
+    <value>Aikalaskelma</value>
+  </data>
+  <data name="MainNavigationItem2.Text" xml:space="preserve">
+    <value>Suosikit</value>
+  </data>
+  <data name="MainNavigationItem3.Text" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="MainNavigationItem4.Text" xml:space="preserve">
+    <value>Kuvaus</value>
+  </data>
+  <data name="MainNavigationItem5.Text" xml:space="preserve">
+    <value>Palautetta ja ehdotuksia</value>
+  </data>
+  <data name="ManifestApplicationDescription" xml:space="preserve">
+    <value>Liite auttaa suunnitella matkan lähtöaikaa</value>
+  </data>
+  <data name="ManifestApplicationDisplayName" xml:space="preserve">
+    <value>Ole ajoissa</value>
+  </data>
+  <data name="ManifestPackagingPackageDisplayName" xml:space="preserve">
+    <value>Ole ajoissa</value>
+  </data>
+  <data name="ManifestVisualAssetsShortName" xml:space="preserve">
+    <value>Ole ajoissa</value>
+  </data>
+  <data name="SettingsAvoid.Text" xml:space="preserve">
+    <value>Välttää reitillä</value>
+  </data>
+  <data name="SettingsAvoidFerries.Content" xml:space="preserve">
+    <value>Lossit</value>
+  </data>
+  <data name="SettingsAvoidHighways.Content" xml:space="preserve">
+    <value>Moottoritiet</value>
+  </data>
+  <data name="SettingsAvoidIndoor.Content" xml:space="preserve">
+    <value>Tunnelit</value>
+  </data>
+  <data name="SettingsAvoidNote.Text" xml:space="preserve">
+    <value>Rajoitusten lisääntyminen ei sulje pois reittia, jotka sisäältyvät vastentahtoiset kohteet. Se antaa vain tehdä paremman tuloksen. </value>
+  </data>
+  <data name="SettingsAvoidNoteHeader.Text" xml:space="preserve">
+    <value>Huomautus:</value>
+  </data>
+  <data name="SettingsAvoidTolls.Content" xml:space="preserve">
+    <value>Maksulliset tiet</value>
+  </data>
+  <data name="SettingsPivotItemAvoid.Header" xml:space="preserve">
+    <value>Reitin rajoitukset</value>
+  </data>
+  <data name="SettingsPivotItemTheme.Header" xml:space="preserve">
+    <value>Ulkokuva</value>
+  </data>
+  <data name="SettingsPivotItemTrafficModel.Header" xml:space="preserve">
+    <value>Likenteen laskelma</value>
+  </data>
+  <data name="SettingsPivotItemTransit.Header" xml:space="preserve">
+    <value>Joukkoliikenne</value>
+  </data>
+  <data name="SettingsThemeBlack.Content" xml:space="preserve">
+    <value>Musta tausta</value>
+  </data>
+  <data name="SettingsThemeBlue.Content" xml:space="preserve">
+    <value>Sininen tausta</value>
+  </data>
+  <data name="SettingsThemeDialogText" xml:space="preserve">
+    <value>Pitää käynnistää uudestaan jotta nähdä muutoksia</value>
+  </data>
+  <data name="SettingsThemeDialogTitle" xml:space="preserve">
+    <value>Aiheen muutos</value>
+  </data>
+  <data name="SettingsThemeGreen.Content" xml:space="preserve">
+    <value>Vihreä tausta</value>
+  </data>
+  <data name="SettingsTrafficModelBestGuess.Content" xml:space="preserve">
+    <value>Paras aika-arvio</value>
+  </data>
+  <data name="SettingsTrafficModelOptimistic.Content" xml:space="preserve">
+    <value>Optimistinen aika-arvio</value>
+  </data>
+  <data name="SettingsTrafficModelPessimistic.Content" xml:space="preserve">
+    <value>Pessimistinen aika-arvio</value>
+  </data>
+  <data name="SettingsTransit.Text" xml:space="preserve">
+    <value>Parempi ajaa </value>
+  </data>
+  <data name="SettingsTransitBus.Content" xml:space="preserve">
+    <value>Bussilla</value>
+  </data>
+  <data name="SettingsTransitSubway.Content" xml:space="preserve">
+    <value>Metrolla</value>
+  </data>
+  <data name="SettingsTransitTrain.Content" xml:space="preserve">
+    <value>Junalla</value>
+  </data>
+  <data name="SettingsTransitTram.Content" xml:space="preserve">
+    <value>Raitiovaunulla</value>
+  </data>
+  <data name="GeolocationArgumentOutOfRangeException" xml:space="preserve">
+    <value>Asemoinnin virhe</value>
+  </data>
+  <data name="GeolocationDenied" xml:space="preserve">
+    <value>Antakaa pääsy liitteeseen jotta määrittää sijaintisi</value>
+  </data>
+  <data name="GeolocationTaskCanceledException" xml:space="preserve">
+    <value>Asemoinnin odotusaika loppui </value>
+  </data>
+  <data name="GeolocationUnspecified" xml:space="preserve">
+    <value>Asemoinnin virhe</value>
+  </data>
+  <data name="SettingsThemeLanuage.Header" xml:space="preserve">
+    <value>Käyttöliittymän kielen valinta</value>
+  </data>
+  <data name="SettingsThemeLanuage.PlaceholderText" xml:space="preserve">
+    <value>Valitse kieli</value>
+  </data>
+  <data name="SettingsThemeBackground.Text" xml:space="preserve">
+    <value>Värin aihe</value>
+  </data>
+  <data name="SettingsPivotItemCommon.Header" xml:space="preserve">
+    <value>Yleiset</value>
+  </data>
+  <data name="MainNavigationItem6.Text" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="MainNavigationItem7.Text" xml:space="preserve">
+    <value>Uudet ominaisuudet</value>
+  </data>
+  <data name="SettingsHistoryClear.Content" xml:space="preserve">
+    <value>Tyhjennä historia</value>
+  </data>
+  <data name="SettingsHistorySave.Header" xml:space="preserve">
+    <value>Tallenna historia</value>
+  </data>
+  <data name="SettingsHistoryClearDialogContent" xml:space="preserve">
+    <value>Haluatko varmasti tyhjentää historian?</value>
+  </data>
+  <data name="SettingsHistoryClearDialogPrimaryButtonText" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
+  <data name="SettingsHistoryClearDialogSecondaryButtonText" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="SettingsHistoryClearText.Text" xml:space="preserve">
+    <value>Historia on tyhjä</value>
+  </data>
+  <data name="SettingsPivotItemHistory.Header" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="HeaderPage1" xml:space="preserve">
+    <value>Aikalaskelma</value>
+  </data>
+  <data name="HeaderPage2" xml:space="preserve">
+    <value>Suosikit</value>
+  </data>
+  <data name="HeaderPage3" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="HeaderPage4" xml:space="preserve">
+    <value>Tietoja ohjelmasta</value>
+  </data>
+  <data name="HeaderPage5" xml:space="preserve">
+    <value>Palautetta</value>
+  </data>
+  <data name="HeaderPage6" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="HeaderPage7" xml:space="preserve">
+    <value>Uudet ominaisuudet</value>
+  </data>
+  <data name="HistoryGoToSettings1.Text" xml:space="preserve">
+    <value>Historia tietojen tallentaminen ei ole käytössä</value>
+  </data>
+  <data name="HistoryGoToSettings2.Content" xml:space="preserve">
+    <value>Klikkaa Asetukset</value>
+  </data>
+  <data name="CalcAppbarHistory.Label" xml:space="preserve">
+    <value>Historia</value>
+  </data>
+  <data name="HeaderPage8" xml:space="preserve">
+    <value>Kartta</value>
+  </data>
+  <data name="HistoryClear.Label" xml:space="preserve">
+    <value>Tyhjennä kaikki</value>
+  </data>
+  <data name="HistoryDelete.Label" xml:space="preserve">
+    <value>Poistaa</value>
+  </data>
+  <data name="FavoritesDeleteDialogContent" xml:space="preserve">
+    <value>Haluatko varmasti poistaa valitut Suosikit?</value>
+  </data>
+  <data name="FavoritesDeleteDialogPrimaryButtonText" xml:space="preserve">
+    <value>Kyllä</value>
+  </data>
+  <data name="FavoritesDeleteDialogSecondaryButtonText" xml:space="preserve">
+    <value>Ei</value>
+  </data>
+  <data name="FavoritesDelete.Label" xml:space="preserve">
+    <value>Poistaa</value>
+  </data>
+  <data name="FavoritesEdit.Label" xml:space="preserve">
+    <value>Muokkaa</value>
+  </data>
+  <data name="PositionInClipboard.Text" xml:space="preserve">
+    <value>Koordinaatit GPS kopioidaan leike pöydälle</value>
+  </data>
+  <data name="appbarCalcPage.Label" xml:space="preserve">
+    <value>Laskenta</value>
+  </data>
+  <data name="HistoryAddToFavorites.Label" xml:space="preserve">
+    <value>Lisää Suosikkeihin</value>
+  </data>
+  <data name="HistoryAddToFavoritesTitle" xml:space="preserve">
+    <value>Lisätty Historiasta</value>
+  </data>
+  <data name="appbarShowOnMap.Label" xml:space="preserve">
+    <value>Kartta</value>
+  </data>
+  <data name="appbarPositionCopy.Label" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="HistoryAddToFavoritesNote.Text" xml:space="preserve">
+    <value>Lisätty Suosikkeihin</value>
+  </data>
+  <data name="HeaderPage9" xml:space="preserve">
+    <value>Suosikkien muokkaus</value>
+  </data>
+  <data name="cmdCancel.Content" xml:space="preserve">
+    <value>Peruuta</value>
+  </data>
+  <data name="cmdOk.Content" xml:space="preserve">
+    <value>Tallenna</value>
+  </data>
+  <data name="FavoritesItemName.Text" xml:space="preserve">
+    <value>Nimi</value>
+  </data>
+</root>

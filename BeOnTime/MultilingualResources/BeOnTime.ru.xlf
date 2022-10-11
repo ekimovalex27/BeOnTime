@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en" target-language="ru" original="BEONTIME/STRINGS/EN/RESOURCES.RESW" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+    <header>
+      <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1795.0" tool-company="Microsoft" />
+    </header>
+    <body>
+      <group id="BEONTIME/STRINGS/EN/RESOURCES.RESW" datatype="resx">
+        <trans-unit id="AboutApplicationName.Text" translate="yes" xml:space="preserve">
+          <source>Be On Time</source>
+          <target state="translated">Будь вовремя</target>
+        </trans-unit>
+        <trans-unit id="AboutAuthor.Text" translate="yes" xml:space="preserve">
+          <source>AUTHORS</source>
+          <target state="translated" state-qualifier="mt-suggestion">АВТОРЫ</target>
+        </trans-unit>
+        <trans-unit id="AboutDescription.Text" translate="yes" xml:space="preserve">
+          <source>The application helps to plan your departure time</source>
+          <target state="translated">Приложение помогает планировать время выезда по заданному маршруту</target>
+        </trans-unit>
+        <trans-unit id="AboutDesign.Text" translate="yes" xml:space="preserve">
+          <source>LOGO</source>
+          <target state="translated" state-qualifier="mt-suggestion">ЛОГОТИП</target>
+        </trans-unit>
+        <trans-unit id="AboutLicense.Text" translate="yes" xml:space="preserve">
+          <source>LICENSES USED</source>
+          <target state="translated" state-qualifier="mt-suggestion">ИСПОЛЬЗУЕМЫЕ ЛИЦЕНЗИИ</target>
+        </trans-unit>
+        <trans-unit id="AboutPlatform.Text" translate="yes" xml:space="preserve">
+          <source>OTHER PLATFORMS</source>
+          <target state="translated" state-qualifier="mt-suggestion">ДРУГИЕ ПЛАТФОРМЫ</target>
+        </trans-unit>
+        <trans-unit id="AboutPlatformAppStore.Text" translate="yes" xml:space="preserve">
+          <source>Coming soon in App Store</source>
+          <target state="translated" state-qualifier="mt-suggestion">Скоро в App Store</target>
+        </trans-unit>
+        <trans-unit id="AboutPlatformGooglePlay.Text" translate="yes" xml:space="preserve">
+          <source>Coming soon in Google Play</source>
+          <target state="translated" state-qualifier="mt-suggestion">Скоро в Google Play</target>
+        </trans-unit>
+        <trans-unit id="AboutSupport.Text" translate="yes" xml:space="preserve">
+          <source>SUPPORT</source>
+          <target state="translated" state-qualifier="tm-suggestion">ПОДДЕРЖКА</target>
+        </trans-unit>
+        <trans-unit id="AboutTranslate.Text" translate="yes" xml:space="preserve">
+          <source>TRANSLATORS</source>
+          <target state="translated">ПЕРЕВОДЧИКИ</target>
+        </trans-unit>
+        <trans-unit id="AboutTranslateAuthor1.Content" translate="yes" xml:space="preserve">
+          <source></source>
+          <target state="translated" state-qualifier="mt-suggestion"></target>
+        </trans-unit>
+        <trans-unit id="AboutVersion.Text" translate="yes" xml:space="preserve">
+          <source>VERSION</source>
+          <target state="translated" state-qualifier="tm-suggestion">ВЕРСИЯ</target>
+        </trans-unit>
+        <trans-unit id="CalcAppbarDepartureLocation.Label" translate="yes" xml:space="preserve">
+          <source>Location</source>
+          <target state="translated" state-qualifier="tm-suggestion">Расположение</target>
+        </trans-unit>
+        <trans-unit id="CalcappbarExchangeAddress.Label" translate="yes" xml:space="preserve">
+          <source>Exchange addresses</source>
+          <target state="translated">Обмен адресов</target>
+        </trans-unit>
+        <trans-unit id="CalcArrivalTime.Text" translate="yes" xml:space="preserve">
+          <source>When should I arrive?</source>
+          <target state="translated">Когда надо приехать?</target>
+        </trans-unit>
+        <trans-unit id="CalcDepartureText1" translate="yes" xml:space="preserve">
+          <source>To leave after</source>
+          <target state="translated">Выезжать через</target>
+        </trans-unit>
+        <trans-unit id="CalcDepartureText2" translate="yes" xml:space="preserve">
+          <source>You need to go right now</source>
+          <target state="translated">Выезжать прямо сейчас</target>
+        </trans-unit>
+        <trans-unit id="CalcEqulAddress" translate="yes" xml:space="preserve">
+          <source>Address of departure/arrival coincide</source>
+          <target state="translated" state-qualifier="mt-suggestion">Адрес отправления/прибытия совпадают</target>
+        </trans-unit>
+        <trans-unit id="CalcErrorRoute" translate="yes" xml:space="preserve">
+          <source>Can't calculate a route</source>
+          <target state="translated" state-qualifier="mt-suggestion">Не удается вычислить маршрут</target>
+        </trans-unit>
+        <trans-unit id="CalcMode.Text" translate="yes" xml:space="preserve">
+          <source>How do you travel?</source>
+          <target state="translated">На чём ехать?</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeAnd" translate="yes" xml:space="preserve">
+          <source>and</source>
+          <target state="translated">и</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeDay" translate="yes" xml:space="preserve">
+          <source>days</source>
+          <target state="translated" state-qualifier="tm-suggestion">дн.</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeHour" translate="yes" xml:space="preserve">
+          <source>h.</source>
+          <target state="translated">ч.</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeIn" translate="yes" xml:space="preserve">
+          <source>at</source>
+          <target state="translated" state-qualifier="tm-suggestion">в</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeMinute" translate="yes" xml:space="preserve">
+          <source>min.</source>
+          <target state="translated" state-qualifier="mt-suggestion">мин.</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeNotNeed" translate="yes" xml:space="preserve">
+          <source>And there is no need to go</source>
+          <target state="translated">И ехать никуда не надо</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeWithoutTraffic1" translate="yes" xml:space="preserve">
+          <source>Departure time is up</source>
+          <target state="translated">Обычное время выезда вышло</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeWithoutTraffic2" translate="yes" xml:space="preserve">
+          <source>Time in road</source>
+          <target state="translated">Время в пути</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeWithoutTraffic3" translate="yes" xml:space="preserve">
+          <source>without traffic jams</source>
+          <target state="translated" state-qualifier="mt-suggestion">без пробок</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeWithTraffic1" translate="yes" xml:space="preserve">
+          <source>Departure time with traffic jams is up</source>
+          <target state="translated">Время выезда с учётом пробок вышло</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeWithTraffic2" translate="yes" xml:space="preserve">
+          <source>Time in road</source>
+          <target state="translated">Время в пути</target>
+        </trans-unit>
+        <trans-unit id="CalcTimeWithTraffic3" translate="yes" xml:space="preserve">
+          <source>with traffic jams</source>
+          <target state="translated" state-qualifier="mt-suggestion">с пробками</target>
+        </trans-unit>
+        <trans-unit id="CalcTxtArrival.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Arrival address</source>
+          <target state="translated" state-qualifier="mt-suggestion">Адрес прибытия</target>
+        </trans-unit>
+        <trans-unit id="CalcTxtArrivalError.Text" translate="yes" xml:space="preserve">
+          <source>Arrival address is empty</source>
+          <target state="translated" state-qualifier="mt-suggestion">Адрес прибытия пуст</target>
+        </trans-unit>
+        <trans-unit id="CalcTxtCalculateError.Text" translate="yes" xml:space="preserve">
+          <source>Can't calculate a route</source>
+          <target state="translated" state-qualifier="mt-suggestion">Не удается вычислить маршрут</target>
+        </trans-unit>
+        <trans-unit id="CalcTxtDeparture.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Departure address</source>
+          <target state="translated" state-qualifier="mt-suggestion">Адрес отправления</target>
+        </trans-unit>
+        <trans-unit id="CalcTxtDepartureError.Text" translate="yes" xml:space="preserve">
+          <source>Departure address is empty</source>
+          <target state="translated" state-qualifier="mt-suggestion">Адрес отправления пуст</target>
+        </trans-unit>
+        <trans-unit id="MainHeader.Text" translate="yes" xml:space="preserve">
+          <source>Be On Time</source>
+          <target state="translated">Быть вовремя</target>
+        </trans-unit>
+        <trans-unit id="MainNavigationItem1.Text" translate="yes" xml:space="preserve">
+          <source>Calculation of time</source>
+          <target state="translated">Расчёт времени</target>
+        </trans-unit>
+        <trans-unit id="MainNavigationItem2.Text" translate="yes" xml:space="preserve">
+          <source>Favorites</source>
+          <target state="translated" state-qualifier="tm-suggestion">Избранное</target>
+        </trans-unit>
+        <trans-unit id="MainNavigationItem3.Text" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated">Настройки</target>
+        </trans-unit>
+        <trans-unit id="MainNavigationItem4.Text" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="translated">Описание</target>
+        </trans-unit>
+        <trans-unit id="MainNavigationItem5.Text" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="translated">Отзывы и предложения</target>
+        </trans-unit>
+        <trans-unit id="ManifestApplicationDescription" translate="yes" xml:space="preserve">
+          <source>The application helps to plan your departure time</source>
+          <target state="translated">Приложение помогает планировать время выезда по заданному маршруту</target>
+        </trans-unit>
+        <trans-unit id="ManifestApplicationDisplayName" translate="yes" xml:space="preserve">
+          <source>Be On Time</source>
+          <target state="translated">Будь вовремя</target>
+        </trans-unit>
+        <trans-unit id="ManifestPackagingPackageDisplayName" translate="yes" xml:space="preserve">
+          <source>Be On Time</source>
+          <target state="translated">Будь вовремя</target>
+        </trans-unit>
+        <trans-unit id="ManifestVisualAssetsShortName" translate="yes" xml:space="preserve">
+          <source>Be On Time</source>
+          <target state="translated">Будь вовремя</target>
+        </trans-unit>
+        <trans-unit id="SettingsAvoid.Text" translate="yes" xml:space="preserve">
+          <source>Avoid on route</source>
+          <target state="translated">Избегать на маршруте</target>
+        </trans-unit>
+        <trans-unit id="SettingsAvoidFerries.Content" translate="yes" xml:space="preserve">
+          <source>Ferries</source>
+          <target state="translated" state-qualifier="tm-suggestion">Паромы</target>
+        </trans-unit>
+        <trans-unit id="SettingsAvoidHighways.Content" translate="yes" xml:space="preserve">
+          <source>Highways</source>
+          <target state="translated" state-qualifier="tm-suggestion">Магистрали</target>
+        </trans-unit>
+        <trans-unit id="SettingsAvoidIndoor.Content" translate="yes" xml:space="preserve">
+          <source>Tunnels</source>
+          <target state="translated">Тоннели</target>
+        </trans-unit>
+        <trans-unit id="SettingsAvoidNote.Text" translate="yes" xml:space="preserve">
+          <source>The addition of restrictions does not exclude routes that include unwanted objects / units. It just allows to change the result to more preferable</source>
+          <target state="translated">Добавление ограничений не исключает маршруты, содержащие нежелательные объекты, а просто позволяет изменить результат на более предпочтительный</target>
+        </trans-unit>
+        <trans-unit id="SettingsAvoidNoteHeader.Text" translate="yes" xml:space="preserve">
+          <source>Note:</source>
+          <target state="translated" state-qualifier="tm-suggestion">Примечание:</target>
+        </trans-unit>
+        <trans-unit id="SettingsAvoidTolls.Content" translate="yes" xml:space="preserve">
+          <source>Tolls roads</source>
+          <target state="translated">Платные дороги</target>
+        </trans-unit>
+        <trans-unit id="SettingsPivotItemAvoid.Header" translate="yes" xml:space="preserve">
+          <source>Route restrictions</source>
+          <target state="translated" state-qualifier="mt-suggestion">Ограничения маршрута</target>
+        </trans-unit>
+        <trans-unit id="SettingsPivotItemTheme.Header" translate="yes" xml:space="preserve">
+          <source>Theme</source>
+          <target state="translated">Внешний вид</target>
+        </trans-unit>
+        <trans-unit id="SettingsPivotItemTrafficModel.Header" translate="yes" xml:space="preserve">
+          <source>Calculating time in traffic</source>
+          <target state="translated">Расчёт трафика</target>
+        </trans-unit>
+        <trans-unit id="SettingsPivotItemTransit.Header" translate="yes" xml:space="preserve">
+          <source>Transit</source>
+          <target state="translated">Общественный транспорт</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeBlack.Content" translate="yes" xml:space="preserve">
+          <source>Black background</source>
+          <target state="translated">Чёрный фон</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeBlue.Content" translate="yes" xml:space="preserve">
+          <source>Blue background</source>
+          <target state="translated" state-qualifier="mt-suggestion">Синий фон</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeDialogText" translate="yes" xml:space="preserve">
+          <source>You need to restart the application to see changes</source>
+          <target state="translated" state-qualifier="mt-suggestion">Необходимо перезапустить приложение, чтобы увидеть изменения</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeDialogTitle" translate="yes" xml:space="preserve">
+          <source>Changing Theme</source>
+          <target state="translated" state-qualifier="mt-suggestion">Изменение темы</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeGreen.Content" translate="yes" xml:space="preserve">
+          <source>Green background</source>
+          <target state="translated">Зелёный фон</target>
+        </trans-unit>
+        <trans-unit id="SettingsTrafficModelBestGuess.Content" translate="yes" xml:space="preserve">
+          <source>Best time estimation</source>
+          <target state="translated">Наилучшая оценка времени</target>
+        </trans-unit>
+        <trans-unit id="SettingsTrafficModelOptimistic.Content" translate="yes" xml:space="preserve">
+          <source>Optimistic time estimation</source>
+          <target state="translated">Оптимистичная оценка времени</target>
+        </trans-unit>
+        <trans-unit id="SettingsTrafficModelPessimistic.Content" translate="yes" xml:space="preserve">
+          <source>Pessimistic time estimation</source>
+          <target state="translated">Пессимистичная оценка времени</target>
+        </trans-unit>
+        <trans-unit id="SettingsTransit.Text" translate="yes" xml:space="preserve">
+          <source>Priority to transportation by</source>
+          <target state="translated">Приоритет передвижению на</target>
+        </trans-unit>
+        <trans-unit id="SettingsTransitBus.Content" translate="yes" xml:space="preserve">
+          <source>Bus</source>
+          <target state="translated">Автобусе</target>
+        </trans-unit>
+        <trans-unit id="SettingsTransitSubway.Content" translate="yes" xml:space="preserve">
+          <source>Subway</source>
+          <target state="translated" state-qualifier="tm-suggestion">Метро</target>
+        </trans-unit>
+        <trans-unit id="SettingsTransitTrain.Content" translate="yes" xml:space="preserve">
+          <source>Train</source>
+          <target state="translated">Поезде</target>
+        </trans-unit>
+        <trans-unit id="SettingsTransitTram.Content" translate="yes" xml:space="preserve">
+          <source>Tram</source>
+          <target state="translated">Трамвае и легком метро</target>
+        </trans-unit>
+        <trans-unit id="GeolocationArgumentOutOfRangeException" translate="yes" xml:space="preserve">
+          <source>Positioning error</source>
+          <target state="translated" state-qualifier="mt-suggestion">Ошибка позиционирования</target>
+        </trans-unit>
+        <trans-unit id="GeolocationDenied" translate="yes" xml:space="preserve">
+          <source>Please, give access to this application to determine your location</source>
+          <target state="translated">Пожалуйста, дайте доступ приложению, чтобы определить ваше местоположение</target>
+        </trans-unit>
+        <trans-unit id="GeolocationTaskCanceledException" translate="yes" xml:space="preserve">
+          <source>Positioning timed out</source>
+          <target state="translated">Истекло время ожидания позиционирования</target>
+        </trans-unit>
+        <trans-unit id="GeolocationUnspecified" translate="yes" xml:space="preserve">
+          <source>Positioning error</source>
+          <target state="translated" state-qualifier="mt-suggestion">Ошибка позиционирования</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeLanuage.Header" translate="yes" xml:space="preserve">
+          <source>Interface language</source>
+          <target state="translated">Язык интерфейса</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeLanuage.PlaceholderText" translate="yes" xml:space="preserve">
+          <source>Select language</source>
+          <target state="translated" state-qualifier="tm-suggestion">Выберите язык</target>
+        </trans-unit>
+        <trans-unit id="SettingsThemeBackground.Text" translate="yes" xml:space="preserve">
+          <source>Color Theme Mode</source>
+          <target state="translated" state-qualifier="mt-suggestion">Цветовая тема</target>
+        </trans-unit>
+        <trans-unit id="SettingsPivotItemCommon.Header" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <target state="translated" state-qualifier="tm-suggestion">Общие</target>
+        </trans-unit>
+        <trans-unit id="MainNavigationItem6.Text" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target state="translated">История</target>
+        </trans-unit>
+        <trans-unit id="MainNavigationItem7.Text" translate="yes" xml:space="preserve">
+          <source>What's new</source>
+          <target state="translated">Новые возможности</target>
+        </trans-unit>
+        <trans-unit id="SettingsHistoryClear.Content" translate="yes" xml:space="preserve">
+          <source>Clear History</source>
+          <target state="translated">Очистить историю</target>
+        </trans-unit>
+        <trans-unit id="SettingsHistorySave.Header" translate="yes" xml:space="preserve">
+          <source>Save history</source>
+          <target state="translated">Сохранить историю</target>
+        </trans-unit>
+        <trans-unit id="SettingsHistoryClearDialogContent" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to clear the history?</source>
+          <target state="translated">Вы действительно хотите очистить историю?</target>
+        </trans-unit>
+        <trans-unit id="SettingsHistoryClearDialogPrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="translated">Да</target>
+        </trans-unit>
+        <trans-unit id="SettingsHistoryClearDialogSecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="translated">Нет</target>
+        </trans-unit>
+        <trans-unit id="SettingsHistoryClearText.Text" translate="yes" xml:space="preserve">
+          <source>History is empty</source>
+          <target state="translated">История пуста</target>
+        </trans-unit>
+        <trans-unit id="SettingsPivotItemHistory.Header" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target state="translated">История</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage1" translate="yes" xml:space="preserve">
+          <source>Calculation of time</source>
+          <target state="translated">Расчёт времени</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage2" translate="yes" xml:space="preserve">
+          <source>Favorites</source>
+          <target state="translated" state-qualifier="tm-suggestion">Избранное</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage3" translate="yes" xml:space="preserve">
+          <source>Settings</source>
+          <target state="translated" state-qualifier="tm-suggestion">Настройки</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage4" translate="yes" xml:space="preserve">
+          <source>About</source>
+          <target state="translated" state-qualifier="tm-suggestion">Описание</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage5" translate="yes" xml:space="preserve">
+          <source>Feedback</source>
+          <target state="translated" state-qualifier="tm-suggestion">Обратная связь</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage6" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target state="translated" state-qualifier="tm-suggestion">История</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage7" translate="yes" xml:space="preserve">
+          <source>What's new</source>
+          <target state="translated" state-qualifier="tm-suggestion">Что нового</target>
+        </trans-unit>
+        <trans-unit id="HistoryGoToSettings1.Text" translate="yes" xml:space="preserve">
+          <source>Saving of History is disabled</source>
+          <target state="translated">Сохранение Истории отключено</target>
+        </trans-unit>
+        <trans-unit id="HistoryGoToSettings2.Content" translate="yes" xml:space="preserve">
+          <source>Click for Settings</source>
+          <target state="translated">Нажмите для Настройки</target>
+        </trans-unit>
+        <trans-unit id="CalcAppbarHistory.Label" translate="yes" xml:space="preserve">
+          <source>History</source>
+          <target state="translated">История</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage8" translate="yes" xml:space="preserve">
+          <source>Map</source>
+          <target state="translated">Карта</target>
+        </trans-unit>
+        <trans-unit id="HistoryClear.Label" translate="yes" xml:space="preserve">
+          <source>Clear All</source>
+          <target state="final" state-qualifier="tm-suggestion">Очистить все</target>
+        </trans-unit>
+        <trans-unit id="HistoryDelete.Label" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="final">Удалить</target>
+        </trans-unit>
+        <trans-unit id="FavoritesDeleteDialogContent" translate="yes" xml:space="preserve">
+          <source>Are you sure you want to delete the selected favorites?</source>
+          <target state="final">Удалить из Избранного?</target>
+        </trans-unit>
+        <trans-unit id="FavoritesDeleteDialogPrimaryButtonText" translate="yes" xml:space="preserve">
+          <source>Yes</source>
+          <target state="final" state-qualifier="tm-suggestion">Да</target>
+        </trans-unit>
+        <trans-unit id="FavoritesDeleteDialogSecondaryButtonText" translate="yes" xml:space="preserve">
+          <source>No</source>
+          <target state="final" state-qualifier="tm-suggestion">Нет</target>
+        </trans-unit>
+        <trans-unit id="FavoritesDelete.Label" translate="yes" xml:space="preserve">
+          <source>Delete</source>
+          <target state="final">Удалить</target>
+        </trans-unit>
+        <trans-unit id="FavoritesEdit.Label" translate="yes" xml:space="preserve">
+          <source>Edit</source>
+          <target state="final" state-qualifier="tm-suggestion">Изменить</target>
+        </trans-unit>
+        <trans-unit id="PositionInClipboard.Text" translate="yes" xml:space="preserve">
+          <source>Coordinates GPS copied to clipboard</source>
+          <target state="final">Координаты GPS скопированы в буфер</target>
+        </trans-unit>
+        <trans-unit id="appbarCalcPage.Label" translate="yes" xml:space="preserve">
+          <source>Calculation</source>
+          <target state="final">Расчёт</target>
+        </trans-unit>
+        <trans-unit id="HistoryAddToFavorites.Label" translate="yes" xml:space="preserve">
+          <source>Add to Favorites</source>
+          <target state="final">Добавить в Избранное</target>
+        </trans-unit>
+        <trans-unit id="HistoryAddToFavoritesTitle" translate="yes" xml:space="preserve">
+          <source>Added from History</source>
+          <target state="final">Добавлено из Истории</target>
+        </trans-unit>
+        <trans-unit id="appbarShowOnMap.Label" translate="yes" xml:space="preserve">
+          <source>Map</source>
+          <target state="final" state-qualifier="tm-suggestion">Карта</target>
+        </trans-unit>
+        <trans-unit id="appbarPositionCopy.Label" translate="yes" xml:space="preserve">
+          <source>GPS</source>
+          <target state="final" state-qualifier="tm-suggestion">GPS</target>
+        </trans-unit>
+        <trans-unit id="HistoryAddToFavoritesNote.Text" translate="yes" xml:space="preserve">
+          <source>Added to Favorites</source>
+          <target state="final">Добавлено в Избранное</target>
+        </trans-unit>
+        <trans-unit id="HeaderPage9" translate="yes" xml:space="preserve">
+          <source>Favorites Edit</source>
+          <target state="final">Изменение Избранного</target>
+        </trans-unit>
+        <trans-unit id="cmdCancel.Content" translate="yes" xml:space="preserve">
+          <source>Cancel</source>
+          <target state="final">Отменить</target>
+        </trans-unit>
+        <trans-unit id="cmdOk.Content" translate="yes" xml:space="preserve">
+          <source>Save</source>
+          <target state="final">Сохранить</target>
+        </trans-unit>
+        <trans-unit id="FavoritesItemName.Text" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <target state="final" state-qualifier="tm-suggestion">Название</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

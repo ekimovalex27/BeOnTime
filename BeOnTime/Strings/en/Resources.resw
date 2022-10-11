@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutApplicationName.Text" xml:space="preserve">
+    <value>Be On Time</value>
+  </data>
+  <data name="AboutAuthor.Text" xml:space="preserve">
+    <value>AUTHORS</value>
+  </data>
+  <data name="AboutDescription.Text" xml:space="preserve">
+    <value>The application helps to plan your departure time</value>
+  </data>
+  <data name="AboutDesign.Text" xml:space="preserve">
+    <value>LOGO</value>
+  </data>
+  <data name="AboutLicense.Text" xml:space="preserve">
+    <value>LICENSES USED</value>
+  </data>
+  <data name="AboutPlatform.Text" xml:space="preserve">
+    <value>OTHER PLATFORMS</value>
+  </data>
+  <data name="AboutPlatformAppStore.Text" xml:space="preserve">
+    <value>Coming soon in App Store</value>
+  </data>
+  <data name="AboutPlatformGooglePlay.Text" xml:space="preserve">
+    <value>Coming soon in Google Play</value>
+  </data>
+  <data name="AboutSupport.Text" xml:space="preserve">
+    <value>SUPPORT</value>
+  </data>
+  <data name="AboutTranslate.Text" xml:space="preserve">
+    <value>TRANSLATORS</value>
+  </data>
+  <data name="AboutTranslateAuthor1.Content" xml:space="preserve">
+    <value />
+  </data>
+  <data name="AboutVersion.Text" xml:space="preserve">
+    <value>VERSION</value>
+  </data>
+  <data name="CalcAppbarDepartureLocation.Label" xml:space="preserve">
+    <value>Location</value>
+  </data>
+  <data name="CalcappbarExchangeAddress.Label" xml:space="preserve">
+    <value>Exchange addresses</value>
+  </data>
+  <data name="CalcArrivalTime.Text" xml:space="preserve">
+    <value>When should I arrive?</value>
+  </data>
+  <data name="CalcDepartureText1" xml:space="preserve">
+    <value>To leave after</value>
+  </data>
+  <data name="CalcDepartureText2" xml:space="preserve">
+    <value>You need to go right now</value>
+  </data>
+  <data name="CalcEqulAddress" xml:space="preserve">
+    <value>Address of departure/arrival coincide</value>
+  </data>
+  <data name="CalcErrorRoute" xml:space="preserve">
+    <value>Can't calculate a route</value>
+  </data>
+  <data name="CalcMode.Text" xml:space="preserve">
+    <value>How do you travel?</value>
+  </data>
+  <data name="CalcTimeAnd" xml:space="preserve">
+    <value>and</value>
+  </data>
+  <data name="CalcTimeDay" xml:space="preserve">
+    <value>days</value>
+  </data>
+  <data name="CalcTimeHour" xml:space="preserve">
+    <value>h.</value>
+  </data>
+  <data name="CalcTimeIn" xml:space="preserve">
+    <value>at</value>
+  </data>
+  <data name="CalcTimeMinute" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="CalcTimeNotNeed" xml:space="preserve">
+    <value>And there is no need to go</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic1" xml:space="preserve">
+    <value>Departure time is up</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic2" xml:space="preserve">
+    <value>Time in road</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic3" xml:space="preserve">
+    <value>without traffic jams</value>
+  </data>
+  <data name="CalcTimeWithTraffic1" xml:space="preserve">
+    <value>Departure time with traffic jams is up</value>
+  </data>
+  <data name="CalcTimeWithTraffic2" xml:space="preserve">
+    <value>Time in road</value>
+  </data>
+  <data name="CalcTimeWithTraffic3" xml:space="preserve">
+    <value>with traffic jams</value>
+  </data>
+  <data name="CalcTxtArrival.PlaceholderText" xml:space="preserve">
+    <value>Arrival address</value>
+  </data>
+  <data name="CalcTxtArrivalError.Text" xml:space="preserve">
+    <value>Arrival address is empty</value>
+  </data>
+  <data name="CalcTxtCalculateError.Text" xml:space="preserve">
+    <value>Can't calculate a route</value>
+  </data>
+  <data name="CalcTxtDeparture.PlaceholderText" xml:space="preserve">
+    <value>Departure address</value>
+  </data>
+  <data name="CalcTxtDepartureError.Text" xml:space="preserve">
+    <value>Departure address is empty</value>
+  </data>
+  <data name="MainHeader.Text" xml:space="preserve">
+    <value>Be On Time</value>
+  </data>
+  <data name="MainNavigationItem1.Text" xml:space="preserve">
+    <value>Calculation of time</value>
+  </data>
+  <data name="MainNavigationItem2.Text" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="MainNavigationItem3.Text" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="MainNavigationItem4.Text" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="MainNavigationItem5.Text" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="ManifestApplicationDescription" xml:space="preserve">
+    <value>The application helps to plan your departure time</value>
+  </data>
+  <data name="ManifestApplicationDisplayName" xml:space="preserve">
+    <value>Be On Time</value>
+  </data>
+  <data name="ManifestPackagingPackageDisplayName" xml:space="preserve">
+    <value>Be On Time</value>
+  </data>
+  <data name="ManifestVisualAssetsShortName" xml:space="preserve">
+    <value>Be On Time</value>
+  </data>
+  <data name="SettingsAvoid.Text" xml:space="preserve">
+    <value>Avoid on route</value>
+  </data>
+  <data name="SettingsAvoidFerries.Content" xml:space="preserve">
+    <value>Ferries</value>
+  </data>
+  <data name="SettingsAvoidHighways.Content" xml:space="preserve">
+    <value>Highways</value>
+  </data>
+  <data name="SettingsAvoidIndoor.Content" xml:space="preserve">
+    <value>Tunnels</value>
+  </data>
+  <data name="SettingsAvoidNote.Text" xml:space="preserve">
+    <value>The addition of restrictions does not exclude routes that include unwanted objects / units. It just allows to change the result to more preferable</value>
+  </data>
+  <data name="SettingsAvoidNoteHeader.Text" xml:space="preserve">
+    <value>Note:</value>
+  </data>
+  <data name="SettingsAvoidTolls.Content" xml:space="preserve">
+    <value>Tolls roads</value>
+  </data>
+  <data name="SettingsPivotItemAvoid.Header" xml:space="preserve">
+    <value>Route restrictions</value>
+  </data>
+  <data name="SettingsPivotItemTheme.Header" xml:space="preserve">
+    <value>Theme</value>
+  </data>
+  <data name="SettingsPivotItemTrafficModel.Header" xml:space="preserve">
+    <value>Calculating time in traffic</value>
+  </data>
+  <data name="SettingsPivotItemTransit.Header" xml:space="preserve">
+    <value>Transit</value>
+  </data>
+  <data name="SettingsThemeBlack.Content" xml:space="preserve">
+    <value>Black background</value>
+  </data>
+  <data name="SettingsThemeBlue.Content" xml:space="preserve">
+    <value>Blue background</value>
+  </data>
+  <data name="SettingsThemeDialogText" xml:space="preserve">
+    <value>You need to restart the application to see changes</value>
+  </data>
+  <data name="SettingsThemeDialogTitle" xml:space="preserve">
+    <value>Changing Theme</value>
+  </data>
+  <data name="SettingsThemeGreen.Content" xml:space="preserve">
+    <value>Green background</value>
+  </data>
+  <data name="SettingsTrafficModelBestGuess.Content" xml:space="preserve">
+    <value>Best time estimation</value>
+  </data>
+  <data name="SettingsTrafficModelOptimistic.Content" xml:space="preserve">
+    <value>Optimistic time estimation</value>
+  </data>
+  <data name="SettingsTrafficModelPessimistic.Content" xml:space="preserve">
+    <value>Pessimistic time estimation</value>
+  </data>
+  <data name="SettingsTransit.Text" xml:space="preserve">
+    <value>Priority to transportation by</value>
+  </data>
+  <data name="SettingsTransitBus.Content" xml:space="preserve">
+    <value>Bus</value>
+  </data>
+  <data name="SettingsTransitSubway.Content" xml:space="preserve">
+    <value>Subway</value>
+  </data>
+  <data name="SettingsTransitTrain.Content" xml:space="preserve">
+    <value>Train</value>
+  </data>
+  <data name="SettingsTransitTram.Content" xml:space="preserve">
+    <value>Tram</value>
+  </data>
+  <data name="GeolocationArgumentOutOfRangeException" xml:space="preserve">
+    <value>Positioning error</value>
+  </data>
+  <data name="GeolocationDenied" xml:space="preserve">
+    <value>Please, give access to this application to determine your location</value>
+  </data>
+  <data name="GeolocationTaskCanceledException" xml:space="preserve">
+    <value>Positioning timed out</value>
+  </data>
+  <data name="GeolocationUnspecified" xml:space="preserve">
+    <value>Positioning error</value>
+  </data>
+  <data name="SettingsThemeLanuage.Header" xml:space="preserve">
+    <value>Interface language</value>
+  </data>
+  <data name="SettingsThemeLanuage.PlaceholderText" xml:space="preserve">
+    <value>Select language</value>
+  </data>
+  <data name="SettingsThemeBackground.Text" xml:space="preserve">
+    <value>Color Theme Mode</value>
+  </data>
+  <data name="SettingsPivotItemCommon.Header" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="MainNavigationItem6.Text" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="MainNavigationItem7.Text" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="SettingsHistoryClear.Content" xml:space="preserve">
+    <value>Clear History</value>
+  </data>
+  <data name="SettingsHistorySave.Header" xml:space="preserve">
+    <value>Save history</value>
+  </data>
+  <data name="SettingsHistoryClearDialogContent" xml:space="preserve">
+    <value>Are you sure you want to clear the history?</value>
+  </data>
+  <data name="SettingsHistoryClearDialogPrimaryButtonText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="SettingsHistoryClearDialogSecondaryButtonText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SettingsHistoryClearText.Text" xml:space="preserve">
+    <value>History is empty</value>
+  </data>
+  <data name="SettingsPivotItemHistory.Header" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HeaderPage1" xml:space="preserve">
+    <value>Calculation of time</value>
+  </data>
+  <data name="HeaderPage2" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="HeaderPage3" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="HeaderPage4" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="HeaderPage5" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="HeaderPage6" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HeaderPage7" xml:space="preserve">
+    <value>What's new</value>
+  </data>
+  <data name="HistoryGoToSettings1.Text" xml:space="preserve">
+    <value>Saving of History is disabled</value>
+  </data>
+  <data name="HistoryGoToSettings2.Content" xml:space="preserve">
+    <value>Click for Settings</value>
+  </data>
+  <data name="CalcAppbarHistory.Label" xml:space="preserve">
+    <value>History</value>
+  </data>
+  <data name="HeaderPage8" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="HistoryClear.Label" xml:space="preserve">
+    <value>Clear All</value>
+  </data>
+  <data name="HistoryDelete.Label" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="appbarCalcPage.Label" xml:space="preserve">
+    <value>Calculation</value>
+  </data>
+  <data name="FavoritesDeleteDialogContent" xml:space="preserve">
+    <value>Are you sure you want to delete the selected favorites?</value>
+  </data>
+  <data name="FavoritesDeleteDialogPrimaryButtonText" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="FavoritesDeleteDialogSecondaryButtonText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="appbarShowOnMap.Label" xml:space="preserve">
+    <value>Map</value>
+  </data>
+  <data name="FavoritesDelete.Label" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="FavoritesEdit.Label" xml:space="preserve">
+    <value>Edit</value>
+  </data>
+  <data name="appbarPositionCopy.Label" xml:space="preserve">
+    <value>GPS</value>
+  </data>
+  <data name="HistoryAddToFavorites.Label" xml:space="preserve">
+    <value>Add to Favorites</value>
+  </data>
+  <data name="HistoryAddToFavoritesTitle" xml:space="preserve">
+    <value>Added from History</value>
+  </data>
+  <data name="PositionInClipboard.Text" xml:space="preserve">
+    <value>Coordinates GPS copied to clipboard</value>
+  </data>
+  <data name="HistoryAddToFavoritesNote.Text" xml:space="preserve">
+    <value>Added to Favorites</value>
+  </data>
+  <data name="HeaderPage9" xml:space="preserve">
+    <value>Favorites Edit</value>
+  </data>
+  <data name="cmdCancel.Content" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="cmdOk.Content" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="FavoritesItemName.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+</root>

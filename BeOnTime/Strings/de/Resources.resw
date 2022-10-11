@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutApplicationName.Text" xml:space="preserve">
+    <value>Pünktlich sein</value>
+  </data>
+  <data name="AboutAuthor.Text" xml:space="preserve">
+    <value>AUTOREN</value>
+  </data>
+  <data name="AboutDescription.Text" xml:space="preserve">
+    <value>Die Applikation hilft bei der Planung Ihrer Abreise</value>
+  </data>
+  <data name="AboutDesign.Text" xml:space="preserve">
+    <value>LOGO</value>
+  </data>
+  <data name="AboutLicense.Text" xml:space="preserve">
+    <value>VERWENDETE LIZENZEN</value>
+  </data>
+  <data name="AboutPlatform.Text" xml:space="preserve">
+    <value>ANDERE PLATTFORMEN</value>
+  </data>
+  <data name="AboutPlatformAppStore.Text" xml:space="preserve">
+    <value>Demnächst im App Store</value>
+  </data>
+  <data name="AboutPlatformGooglePlay.Text" xml:space="preserve">
+    <value>Demnächst im Google Play</value>
+  </data>
+  <data name="AboutSupport.Text" xml:space="preserve">
+    <value>SUPPORT</value>
+  </data>
+  <data name="AboutTranslate.Text" xml:space="preserve">
+    <value>INTERPRETERS</value>
+  </data>
+  <data name="AboutTranslateAuthor1.Content" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="AboutVersion.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="CalcAppbarDepartureLocation.Label" xml:space="preserve">
+    <value>Lage</value>
+  </data>
+  <data name="CalcappbarExchangeAddress.Label" xml:space="preserve">
+    <value>Austauschadressen</value>
+  </data>
+  <data name="CalcArrivalTime.Text" xml:space="preserve">
+    <value>Wann sollte ich ankommen?</value>
+  </data>
+  <data name="CalcDepartureText2" xml:space="preserve">
+    <value>Sie müssen sofort gehen</value>
+  </data>
+  <data name="CalcEqulAddress" xml:space="preserve">
+    <value>Anschrift der Abfahrt/Ankunft zusammenfallen</value>
+  </data>
+  <data name="CalcTimeAnd" xml:space="preserve">
+    <value>und</value>
+  </data>
+  <data name="CalcTimeDay" xml:space="preserve">
+    <value>tage</value>
+  </data>
+  <data name="CalcTimeHour" xml:space="preserve">
+    <value>std.</value>
+  </data>
+  <data name="CalcTimeIn" xml:space="preserve">
+    <value>um</value>
+  </data>
+  <data name="CalcTimeMinute" xml:space="preserve">
+    <value>min.</value>
+  </data>
+  <data name="CalcTimeNotNeed" xml:space="preserve">
+    <value>Und es gibt keine Notwendigkeit, zu gehen</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic2" xml:space="preserve">
+    <value>Zeit auf der Strasse</value>
+  </data>
+  <data name="CalcTimeWithoutTraffic3" xml:space="preserve">
+    <value>ohne Stau</value>
+  </data>
+  <data name="CalcTimeWithTraffic2" xml:space="preserve">
+    <value>Zeit auf der Strasse</value>
+  </data>
+  <data name="CalcTxtArrival.PlaceholderText" xml:space="preserve">
+    <value>Ankunft Adresse</value>
+  </data>
+  <data name="CalcTxtArrivalError.Text" xml:space="preserve">
+    <value>Ankunft-Adresse ist leer</value>
+  </data>
+  <data name="CalcTxtCalculateError.Text" xml:space="preserve">
+    <value>Kann keine Route berechnen</value>
+  </data>
+  <data name="CalcTxtDeparture.PlaceholderText" xml:space="preserve">
+    <value>Abfahrt Adresse</value>
+  </data>
+  <data name="CalcTxtDepartureError.Text" xml:space="preserve">
+    <value>Abflug-Adresse ist leer</value>
+  </data>
+  <data name="MainHeader.Text" xml:space="preserve">
+    <value>Pünktlich sein</value>
+  </data>
+  <data name="MainNavigationItem1.Text" xml:space="preserve">
+    <value>Berechnung der Zeit</value>
+  </data>
+  <data name="MainNavigationItem2.Text" xml:space="preserve">
+    <value>Favoriten</value>
+  </data>
+  <data name="MainNavigationItem3.Text" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="MainNavigationItem4.Text" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="MainNavigationItem5.Text" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="ManifestApplicationDescription" xml:space="preserve">
+    <value>Die Applikation hilft bei der Planung Ihrer Abreise</value>
+  </data>
+  <data name="ManifestApplicationDisplayName" xml:space="preserve">
+    <value>Pünktlich sein</value>
+  </data>
+  <data name="ManifestPackagingPackageDisplayName" xml:space="preserve">
+    <value>Pünktlich sein</value>
+  </data>
+  <data name="ManifestVisualAssetsShortName" xml:space="preserve">
+    <value>Pünktlich sein</value>
+  </data>
+  <data name="SettingsAvoid.Text" xml:space="preserve">
+    <value>Auf Route vermeiden</value>
+  </data>
+  <data name="SettingsAvoidFerries.Content" xml:space="preserve">
+    <value>Fähren</value>
+  </data>
+  <data name="SettingsAvoidHighways.Content" xml:space="preserve">
+    <value>Autobahnen</value>
+  </data>
+  <data name="SettingsAvoidIndoor.Content" xml:space="preserve">
+    <value>Tunnel</value>
+  </data>
+  <data name="SettingsAvoidNote.Text" xml:space="preserve">
+    <value>Die Hinzufügung von Beschränkungen schließt keine Routen aus, die unerwünschte Objekte / Einheiten einschließen.Es erlaubt nur, das Ergebnis zu mehr bevorzugt zu ändern</value>
+  </data>
+  <data name="SettingsAvoidNoteHeader.Text" xml:space="preserve">
+    <value>Hinweis:</value>
+  </data>
+  <data name="SettingsAvoidTolls.Content" xml:space="preserve">
+    <value>Maut straßen</value>
+  </data>
+  <data name="SettingsPivotItemAvoid.Header" xml:space="preserve">
+    <value>Route-Beschränkungen</value>
+  </data>
+  <data name="SettingsPivotItemTheme.Header" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="SettingsPivotItemTrafficModel.Header" xml:space="preserve">
+    <value>Berechnen der Zeit im Datenverkehr</value>
+  </data>
+  <data name="SettingsPivotItemTransit.Header" xml:space="preserve">
+    <value>Transit</value>
+  </data>
+  <data name="SettingsThemeBlack.Content" xml:space="preserve">
+    <value>Schwarzer Hintergrund</value>
+  </data>
+  <data name="SettingsThemeBlue.Content" xml:space="preserve">
+    <value>Blauer Hintergrund</value>
+  </data>
+  <data name="SettingsThemeDialogText" xml:space="preserve">
+    <value>Sie müssen die Anwendung neu starten, um Änderungen anzeigen</value>
+  </data>
+  <data name="SettingsThemeDialogTitle" xml:space="preserve">
+    <value>Design ändern</value>
+  </data>
+  <data name="SettingsThemeGreen.Content" xml:space="preserve">
+    <value>Grüner Hintergrund</value>
+  </data>
+  <data name="SettingsTrafficModelBestGuess.Content" xml:space="preserve">
+    <value>Beste Zeit Schätzung</value>
+  </data>
+  <data name="SettingsTrafficModelOptimistic.Content" xml:space="preserve">
+    <value>Optimistische zeitschätzung</value>
+  </data>
+  <data name="SettingsTrafficModelPessimistic.Content" xml:space="preserve">
+    <value>Pessimistische zeitschätzung</value>
+  </data>
+  <data name="SettingsTransitBus.Content" xml:space="preserve">
+    <value>Bus</value>
+  </data>
+  <data name="SettingsTransitSubway.Content" xml:space="preserve">
+    <value>U-Bahn</value>
+  </data>
+  <data name="SettingsTransitTrain.Content" xml:space="preserve">
+    <value>Zug</value>
+  </data>
+  <data name="SettingsTransitTram.Content" xml:space="preserve">
+    <value>Straßenbahn</value>
+  </data>
+  <data name="GeolocationArgumentOutOfRangeException" xml:space="preserve">
+    <value>Positionierung Fehler</value>
+  </data>
+  <data name="GeolocationDenied" xml:space="preserve">
+    <value>Bitte, geben Sie Zugriff auf diese Anwendung, um Ihren Standort zu bestimmen</value>
+  </data>
+  <data name="GeolocationUnspecified" xml:space="preserve">
+    <value>Positionierung Fehler</value>
+  </data>
+  <data name="SettingsThemeLanuage.Header" xml:space="preserve">
+    <value>Interface Sprache</value>
+  </data>
+  <data name="SettingsThemeLanuage.PlaceholderText" xml:space="preserve">
+    <value>Sprache auswählen</value>
+  </data>
+  <data name="SettingsThemeBackground.Text" xml:space="preserve">
+    <value>Color Theme-Modus</value>
+  </data>
+  <data name="SettingsPivotItemCommon.Header" xml:space="preserve">
+    <value>Allgemein</value>
+  </data>
+  <data name="MainNavigationItem6.Text" xml:space="preserve">
+    <value>Verlauf</value>
+  </data>
+  <data name="MainNavigationItem7.Text" xml:space="preserve">
+    <value>Neuigkeiten</value>
+  </data>
+  <data name="SettingsHistoryClear.Content" xml:space="preserve">
+    <value>Verlauf löschen</value>
+  </data>
+  <data name="SettingsHistoryClearDialogContent" xml:space="preserve">
+    <value>Möchten Sie den Verlauf wirklich löschen?</value>
+  </data>
+  <data name="SettingsHistoryClearDialogPrimaryButtonText" xml:space="preserve">
+    <value>yes</value>
+  </data>
+  <data name="SettingsHistoryClearDialogSecondaryButtonText" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="SettingsHistoryClearText.Text" xml:space="preserve">
+    <value>Der Verlauf ist leer.</value>
+  </data>
+  <data name="SettingsPivotItemHistory.Header" xml:space="preserve">
+    <value>Verlauf</value>
+  </data>
+  <data name="HeaderPage2" xml:space="preserve">
+    <value>Favoriten</value>
+  </data>
+  <data name="HeaderPage3" xml:space="preserve">
+    <value>Einstellungen</value>
+  </data>
+  <data name="HeaderPage4" xml:space="preserve">
+    <value>Info</value>
+  </data>
+  <data name="HeaderPage5" xml:space="preserve">
+    <value>Feedback</value>
+  </data>
+  <data name="HeaderPage6" xml:space="preserve">
+    <value>Verlauf</value>
+  </data>
+  <data name="HeaderPage7" xml:space="preserve">
+    <value>Neuigkeiten</value>
+  </data>
+  <data name="CalcAppbarHistory.Label" xml:space="preserve">
+    <value>Verlauf</value>
+  </data>
+</root>

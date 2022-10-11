@@ -1,0 +1,93 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeOnTime"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    x:Class="BeOnTime.HistoryPage"
+    mc:Ignorable="d">
+  
+  <Page.BottomAppBar>
+    <CommandBar x:Name="cmdBarHistoryPage" DefaultLabelPosition="Right">
+      <AppBarButton x:Name="appbarCalc" x:Uid="appbarCalcPage" Label="Расчёт" Click="appbarCalc_Click">
+        <AppBarButton.Icon>
+          <FontIcon Glyph="&#xE916;"/>
+        </AppBarButton.Icon>
+      </AppBarButton>
+      <AppBarButton x:Name="appbarHistoryFavorite" x:Uid="HistoryAddToFavorites" Label="Добавить в избранное" Click="appbarHistoryFavorite_Click">
+        <AppBarButton.Icon>
+          <FontIcon Glyph="&#xE24A;"/>
+        </AppBarButton.Icon>
+      </AppBarButton>
+      <AppBarButton x:Name="appbarShowOnMap" x:Uid="appbarShowOnMap" Icon="Map" Label="Карта" Click="appbarShowOnMap_Click"  />
+      <AppBarButton x:Name="appbarHistoryCopyPosition" x:Uid="appbarPositionCopy" Icon="Copy" Label="GPS" Click="appbarHistoryCopyPosition_Click"/>
+      
+      <CommandBar.SecondaryCommands>
+        <AppBarButton x:Name="appbarHistoryDelete" x:Uid="HistoryDelete" Icon="Delete" Label="Удалить" Click="appbarHistoryDelete_Click"/>
+        <AppBarButton x:Name="appbarHistoryClear" x:Uid="HistoryClear" Icon="Clear" Label="Очистить" Click="appbarHistoryClear_Click"/>
+      </CommandBar.SecondaryCommands>
+    </CommandBar>
+  </Page.BottomAppBar>
+
+  <Grid>
+
+    <VisualStateManager.VisualStateGroups>
+      <VisualStateGroup x:Name="VisualStateGroup">
+        <VisualState x:Name="wideStatePane" >
+          <VisualState.StateTriggers>
+            <AdaptiveTrigger MinWindowWidth="361" />
+          </VisualState.StateTriggers>
+          <VisualState.Setters>
+            <!--<Setter Target="cmdBarHistoryPage.DefaultLabelPosition" Value="Right"/>-->
+          </VisualState.Setters>
+        </VisualState>
+
+        <VisualState x:Name="narrowStatePane">
+          <VisualState.StateTriggers>
+            <AdaptiveTrigger MinWindowWidth="0" />
+          </VisualState.StateTriggers>
+          <VisualState.Setters>
+            <!--<Setter Target="cmdBarHistoryPage.DefaultLabelPosition" Value="Bottom"/>-->
+          </VisualState.Setters>
+        </VisualState>
+      </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+
+    <FlyoutBase.AttachedFlyout>
+      <Flyout x:Name="flayoutCopyPosition">
+        <StackPanel LostFocus="StackPanel_LostFocus" BorderThickness="0">
+          <TextBlock x:Name="PositionInClipboard" x:Uid="PositionInClipboard" Text="Координаты скопированы в буфер обмена" Foreground="Black" />
+          <TextBlock x:Name="HistoryAddToFavoritesNote" x:Uid="HistoryAddToFavoritesNote" Text="Добавлено в Избранное" Foreground="Black" />
+        </StackPanel>
+      </Flyout>
+    </FlyoutBase.AttachedFlyout>
+
+    <Grid.RowDefinitions>
+      <RowDefinition Height="auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+
+    <StackPanel x:Name="spTop" Orientation="Vertical" Grid.Row="0">
+      <TextBlock x:Name="HistoryEmptyText" x:Uid="SettingsHistoryClearText" Text="История пуста" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="0,50,0,0" />
+      <TextBlock x:Name="HistoryGotoSettings" x:Uid="HistoryGoToSettings1" Text="Сохранение Истории отключено" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" Margin="0,50,0,0" />
+      <Button x:Name="cmdHistoryGotoSettings" x:Uid="HistoryGoToSettings2" Content="Нажмите для настройки" Foreground="White" BorderBrush="Transparent" Background="Transparent" HorizontalAlignment="Center" Click="cmdHistoryGotoSettings_Click"/>
+    </StackPanel>
+
+    <ListView x:Name="lvHistory" Grid.Row="1">
+      <ListView.ItemTemplate>
+        <DataTemplate>
+          <StackPanel Orientation="Vertical">
+            <TextBlock Text="{Binding Address}" Foreground="White"/>
+            <StackPanel Orientation="Horizontal">
+              <TextBlock Text="{Binding DateAdd}" Foreground="White" FontSize="11"/>
+              <TextBlock Text="{Binding Latitude}" Foreground="White" FontSize="11" Margin="15,0,0,0"/>
+              <TextBlock Text="{Binding Longitude}" Foreground="White" FontSize="11" Margin="15,0,0,0"/>
+            </StackPanel>
+          </StackPanel>
+        </DataTemplate>
+      </ListView.ItemTemplate>
+    </ListView>
+  </Grid>
+  
+</Page>

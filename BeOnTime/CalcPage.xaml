@@ -1,0 +1,141 @@
+﻿<Page
+    x:Class="BeOnTime.CalcPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BeOnTime"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Unloaded="Page_Unloaded">
+
+  <Page.BottomAppBar>
+    <CommandBar x:Name="cmdBarMainPage" DefaultLabelPosition="Right"><!--DefaultLabelPosition="Right"-->
+      <!--<AppBarButton x:Name="appbarHistory" x:Uid="CalcAppbarHistory" Label="История" Click="appbarHistory_Click">
+        <AppBarButton.Icon>
+          <FontIcon Glyph="&#xE81C;"/>
+        </AppBarButton.Icon>
+      </AppBarButton>-->
+      <AppBarButton x:Name="appbarShowOnMap" x:Uid="HistoryShowOnMap" Icon="Map" Label="Карта" Click="appbarShowOnMap_Click" />
+      <AppBarButton x:Name="appbarDepartureLocation" x:Uid="CalcAppbarDepartureLocation" Icon="Target" Label="Расположение" Click="appbarDepartureLocation_Click"/>
+      <AppBarButton x:Name="appbarExchangeAddress" x:Uid="CalcappbarExchangeAddress" Icon="Sort" Label="Обмен адресов" Click="appbarExchangeAddress_Click"/>
+    </CommandBar>
+  </Page.BottomAppBar>
+
+  <Grid>
+
+    <VisualStateManager.VisualStateGroups>
+      <VisualStateGroup x:Name="VisualStateGroup">
+        <VisualState x:Name="wideStatePane" >
+          <VisualState.StateTriggers>
+            <AdaptiveTrigger MinWindowWidth="361" />
+          </VisualState.StateTriggers>
+          <VisualState.Setters>
+            <!--<Setter Target="cmdBarMainPage.DefaultLabelPosition" Value="Right"/>-->
+          </VisualState.Setters>
+        </VisualState>
+
+        <VisualState x:Name="narrowStatePane">
+          <VisualState.StateTriggers>
+            <AdaptiveTrigger MinWindowWidth="0" />
+          </VisualState.StateTriggers>
+          <VisualState.Setters>
+            <!--<Setter Target="cmdBarMainPage.DefaultLabelPosition" Value="Bottom"/>-->
+            <Setter Target="txtDepartureTimeWithoutTraffic1.FontSize" Value="14"/>
+            <Setter Target="txtDepartureTimeWithTraffic1.FontSize" Value="14"/>
+          </VisualState.Setters>
+        </VisualState>
+      </VisualStateGroup>
+    </VisualStateManager.VisualStateGroups>
+    
+    <ProgressRing x:Name="CalcProgress" Width="75" Height="75" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Background="Transparent" Foreground="White" IsActive="False"/>
+
+    <ScrollViewer VerticalScrollMode="Enabled" VerticalScrollBarVisibility="Hidden">
+      
+      <Grid x:Name="gridRoute">
+        <Grid.RowDefinitions>
+          <RowDefinition Height="auto"/>
+          <RowDefinition Height="auto"/>
+          <RowDefinition Height="auto"/>
+          <RowDefinition Height="auto"/>
+          <RowDefinition Height="auto"/>
+          <RowDefinition Height="auto"/>
+          <RowDefinition Height="auto"/>
+          <RowDefinition Height="75"/>
+          <RowDefinition Height="75"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+          <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <StackPanel x:Name="panelAddress" Grid.Row="0" Grid.Column="0" Orientation="Vertical">
+
+          <StackPanel Orientation="Vertical" Margin="0,0,0,5">
+            <RelativePanel>
+              <AutoSuggestBox x:Name="txtDeparture" x:Uid="CalcTxtDeparture" Height="30" PlaceholderText="Адрес отправления" BorderThickness="0,0,0,2" Foreground="White" RequestedTheme="Dark" TextChanged="txtDeparture_TextChanged"
+                          Width="{Binding ElementName=panelAddress, Path=ActualWidth}" QuerySubmitted="txtDeparture_QuerySubmitted" />
+
+              <TextBlock x:Name="txtDepartureError" x:Uid="CalcTxtDepartureError" RelativePanel.Below="txtDeparture" Height="30" Text="Адрес отправления пустой" Foreground="Red" />
+            </RelativePanel>
+          </StackPanel>
+
+          <StackPanel Orientation="Vertical">
+            <Canvas VerticalAlignment="Center" Height="50" Margin="0,0,0,0">
+
+              <AutoSuggestBox x:Name="txtArrival" x:Uid="CalcTxtArrival" Height="30" PlaceholderText="Адрес прибытия" BorderThickness="0,0,0,2" Foreground="White" RequestedTheme="Dark" TextChanged="txtArrival_TextChanged"
+                          Width="{Binding ElementName=panelAddress, Path=ActualWidth}" QuerySubmitted="txtArrival_QuerySubmitted" />
+
+              <TextBlock x:Name="txtArrivalError" x:Uid="CalcTxtArrivalError" Height="30" Canvas.Left="0"  Canvas.Top="30" Text="Адрес прибытия пустой" Foreground="Red" />
+            </Canvas>
+          </StackPanel>
+
+        </StackPanel>
+
+        <TextBlock x:Uid="CalcArrivalTime" Grid.Row="1" TextWrapping="Wrap" Text="Когда надо приехать?" Canvas.Left="0" Foreground="White" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsTapEnabled="False" />
+        <DatePicker x:Name="dateArrival" Grid.Row="2" Foreground="White" BorderBrush="White" Background="Transparent" DateChanged="dateArrival_DateChanged" Margin="0,5"/>
+        <TimePicker x:Name="timeArrival" Grid.Row="3" ClockIdentifier="24HourClock" Foreground="White" BorderBrush="White" Background="Transparent" HorizontalAlignment="Left" Width="242" TimeChanged="timeArrival_TimeChanged" Margin="0,5"/>
+        <TextBlock x:Uid="CalcMode" Grid.Row="4" TextWrapping="Wrap" Text="На чём ехать?" Foreground="White" IsDoubleTapEnabled="False" IsHoldingEnabled="False" IsTapEnabled="False" />
+
+        <Grid x:Name="gridMode" Grid.Row="5" HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="0,5,0,10">
+          <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="auto"/>
+            <ColumnDefinition Width="*"/>
+          </Grid.ColumnDefinitions>
+          <TextBlock x:Name="txtModeDriving" Grid.Column="0" Foreground="White" Width="70" Height="60"  FontSize="60" TextAlignment="Center" FontFamily="Segoe MDL2 Assets" Text="&#xEA8B;" PointerPressed="txtModeDriving_PointerPressed" Opacity="0.5" PointerEntered="txtModeDriving_PointerEntered" PointerExited="txtModeDriving_PointerExited" HorizontalAlignment="Center" VerticalAlignment="Center" />
+          <TextBlock x:Name="txtModeWalking" Grid.Column="1" Foreground="White" Width="70" Height="60" FontSize="60" TextAlignment="Center" FontFamily="Segoe MDL2 Assets" Text="&#xE726;" PointerPressed="txtModeWalking_PointerPressed" Opacity="0.5" PointerEntered="txtModeWalking_PointerEntered" PointerExited="txtModeWalking_PointerExited" HorizontalAlignment="Center" VerticalAlignment="Center" />
+          <Image x:Name="txtModeBicycling" Grid.Column="2" Width="70" Height="60" Source="Assets/bike.png" HorizontalAlignment="Center" VerticalAlignment="Center" Opacity="0.5" PointerEntered="txtModeBicycling_PointerEntered" PointerExited="txtModeBicycling_PointerExited" PointerPressed="txtModeBicycling_PointerPressed"/>
+          <TextBlock x:Name="txtModeTransit" Grid.Column="3" Foreground="White" Width="70" Height="60" FontSize="60" TextAlignment="Right" FontFamily="Segoe MDL2 Assets" Text="&#xEB47;" PointerPressed="txtModeTransit_PointerPressed" Opacity="0.5" PointerEntered="txtModeTransit_PointerEntered" PointerExited="txtModeTransit_PointerExited" HorizontalAlignment="Center" VerticalAlignment="Center" />
+        </Grid>
+
+        <TextBlock x:Name="txtCalculateError" x:Uid="CalcTxtCalculateError" Grid.Row="6" Text="Не могу рассчитать маршрут" Foreground="Red" Margin="0,5" />
+
+        <!-- Потом подумать-->
+        <!--<GridView x:Name="GridViewLanguage" Grid.Row="7"  Background="Transparent" SelectionMode="None"  ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+                <GridView.ItemsPanel>
+                  <ItemsPanelTemplate>
+                    <ItemsWrapGrid Orientation="Vertical" MaximumRowsOrColumns="0" HorizontalAlignment="Left" />
+                  </ItemsPanelTemplate>
+                </GridView.ItemsPanel>
+                <TextBlock x:Name="txtDepartureTimeWithoutTraffic1" Text="Время в пути 23 ч. 59 мин. " Foreground="White"/>
+                <TextBlock x:Name="txtDepartureTimeWithoutTraffic2" Text="Выезжать через 364 дн. 23 ч. и 59 мин." Foreground="White" />
+                <TextBlock x:Name="txtDepartureTimeWithoutTraffic3" Text="00/00/000 в 00:00." Foreground="White" Margin="0,0,5,0" />
+              </GridView>-->
+
+        <StackPanel x:Name="DepartureTimeWithoutTraffic" Grid.Row="7" Margin="0,0,0,0">
+          <TextBlock x:Name="txtDepartureTimeWithoutTraffic1" Text="Выезжать через 364 дн. 23 ч. и 59 мин. без пробок" Foreground="White" IsTextSelectionEnabled="True" />
+          <TextBlock x:Name="txtDepartureTimeWithoutTraffic2" Text="00/00/000 в 00:00" Foreground="White" IsTextSelectionEnabled="True" />
+          <TextBlock x:Name="txtDepartureTimeWithoutTraffic3" Text="Время в пути 00 мин." Foreground="White" Margin="0,0,5,0" IsTextSelectionEnabled="True" />
+        </StackPanel>
+
+        <StackPanel x:Name="DepartureTimeWithTraffic" Grid.Row="8">
+          <TextBlock x:Name="txtDepartureTimeWithTraffic1" Text="Выезжать через 364 дн. 23 ч. и 59 мин. с пробками" Foreground="White" IsTextSelectionEnabled="True"/>
+          <TextBlock x:Name="txtDepartureTimeWithTraffic2" Text="00/00/000 в 00:00" Foreground="White" IsTextSelectionEnabled="True" />
+          <TextBlock x:Name="txtDepartureTimeWithTraffic3" Text="Время в пути 00 мин." Foreground="White" Margin="0,0,5,0" IsTextSelectionEnabled="True" />
+        </StackPanel>
+
+      </Grid>
+      
+    </ScrollViewer>
+
+  </Grid>
+</Page>

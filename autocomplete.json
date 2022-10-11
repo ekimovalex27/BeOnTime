@@ -1,0 +1,210 @@
+{
+  "predictions": [
+    {
+      "description": "Райколовская улица, Шушары, Ленинградская область, Россия",
+      "id": "3863927658ef2209ca36706b3e78cd09c043ed6d",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "EmrQoNCw0LnQutC-0LvQvtCy0YHQutCw0Y8g0YPQu9C40YbQsCwg0KjRg9GI0LDRgNGLLCDQm9C10L3QuNC90LPRgNCw0LTRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwg0KDQvtGB0YHQuNGP",
+      "reference": "CnRuAAAAiDXGvw-dg9jbUI9JAG1G-isQAndYAmyGnLAoZr3TnOzrA1WltowX6hxFLx7UbaKvsphkEKLVndoPtWAeeDd4iIlX8tfU7drVKEv1mxs2pWIW4UrTnVOI56nWsHGyXZsqmD6o_dUWe5H0lUy6pnIClxIQUBShKOdX4uhg5FHD7uevThoUrT_nUULNZp-FmMXqsZGxnQQnrbc",
+      "structured_formatting": {
+        "main_text": "Райколовская улица",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Шушары, Ленинградская область, Россия"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Райколовская улица"
+        },
+        {
+          "offset": 20,
+          "value": "Шушары"
+        },
+        {
+          "offset": 28,
+          "value": "Ленинградская область"
+        },
+        {
+          "offset": 51,
+          "value": "Россия"
+        }
+      ],
+      "types": [ "route", "geocode" ]
+    },
+
+    {
+      "description": "Райкнелд-роуд, Литловер, Дерби, Великобритания",
+      "id": "d48730cd7d49e1f99fbc4272d7fd2e8b3ab22ea5",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "ElXQoNCw0LnQutC90LXQu9C0LdGA0L7Rg9C0LCDQm9C40YLQu9C-0LLQtdGALCDQlNC10YDQsdC4LCDQktC10LvQuNC60L7QsdGA0LjRgtCw0L3QuNGP",
+      "reference": "CmRZAAAAGAi2xkc4dfC8B0YkRyB50f1DeIyF6yuScF9nJ60CrXHVySRj00zsjcveEtSYfZGrILsR1Btaz4oDd0q23LpAqrayndB1MJ-vx_n8_FtZ5a-DK5-O9D25LQn5c4HRcQVGEhBNhFAFndNMJ7V8TO4M-YckGhQajquDS_tc3aiq_NeTgtx56sM3-Q",
+      "structured_formatting": {
+        "main_text": "Райкнелд-роуд",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Литловер, Дерби, Великобритания"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Райкнелд-роуд"
+        },
+        {
+          "offset": 15,
+          "value": "Литловер"
+        },
+        {
+          "offset": 25,
+          "value": "Дерби"
+        },
+        {
+          "offset": 32,
+          "value": "Великобритания"
+        }
+      ],
+      "types": [ "route", "geocode" ]
+    },
+
+    {
+      "description": "Райкнелд-стрит, Алрюас, Великобритания",
+      "id": "807814afc7f6fcf21886eef6aeb977122c2cb1b4",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "EkfQoNCw0LnQutC90LXQu9C0LdGB0YLRgNC40YIsINCQ0LvRgNGO0LDRgSwg0JLQtdC70LjQutC-0LHRgNC40YLQsNC90LjRjw",
+      "reference": "ClRLAAAAgPLMVSW_qJ7CHpjmMoivBJfNxFr3uvOpIxYFHml-MokQdS4ZACZuOdCMnY5m6lrqv49xAvSEVRjg-ECQvzSbh_4Rfvvm6-QdBM9Dm5nNBDUSEIaJ-UrzAiP9gVSlzngA1ggaFHcnQl0xP6WCfZXwUsCw4cwJvbFg",
+      "structured_formatting": {
+        "main_text": "Райкнелд-стрит",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Алрюас, Великобритания"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Райкнелд-стрит"
+        },
+        {
+          "offset": 16,
+          "value": "Алрюас"
+        },
+        {
+          "offset": 24,
+          "value": "Великобритания"
+        }
+      ],
+      "types": [ "route", "geocode" ]
+    },
+
+    {
+      "description": "Райкман-стрит, Хейверхилл, Массачусетс, Соединенные Штаты Америки",
+      "id": "d7e7ac312d7bef8203ee8e5cf59dbcc132e29f81",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "EnnQoNCw0LnQutC80LDQvS3RgdGC0YDQuNGCLCDQpdC10LnQstC10YDRhdC40LvQuywg0JzQsNGB0YHQsNGH0YPRgdC10YLRgSwg0KHQvtC10LTQuNC90LXQvdC90YvQtSDQqNGC0LDRgtGLINCQ0LzQtdGA0LjQutC4",
+      "reference": "CoQBfQAAAPFJecmwuJ3Rb2-iumK7Jak_OiAfyRi1qBVrsDgukmU26etH2q2_mqtK2rb7XJlsXEIEfaAs-o82eHLUE6rlC-k1_JBibLg2llcpvy8vHJYL8NDRz_P-JoDC8EZZh4YPU-zY0KEqPNq8YFVrxaQG2SpGFdhXBsiUlEUsOVszKSVKEhBHZbEw7GTzKSGlDK8cGP5YGhQkEJw_Fq_VIB6py3xnELUNixw0Ug",
+      "structured_formatting": {
+        "main_text": "Райкман-стрит",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Хейверхилл, Массачусетс, Соединенные Штаты Америки"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Райкман-стрит"
+        },
+        {
+          "offset": 15,
+          "value": "Хейверхилл"
+        },
+        {
+          "offset": 27,
+          "value": "Массачусетс"
+        },
+        {
+          "offset": 40,
+          "value": "Соединенные Штаты Америки"
+        }
+      ],
+      "types": [ "route", "geocode" ]
+    },
+
+    {
+      "description": "Райкауски-лэйн, Гранвилл, Нью-Йорк, Соединенные Штаты Америки",
+      "id": "f0d29de499e2030df472e24c1de2a2f751cce234",
+      "matched_substrings": [
+        {
+          "length": 4,
+          "offset": 0
+        }
+      ],
+      "place_id": "EnDQoNCw0LnQutCw0YPRgdC60Lgt0LvRjdC50L0sINCT0YDQsNC90LLQuNC70LssINCd0YzRji3QmdC-0YDQuiwg0KHQvtC10LTQuNC90LXQvdC90YvQtSDQqNGC0LDRgtGLINCQ0LzQtdGA0LjQutC4",
+      "reference": "CoQBdAAAAJh85PFXy5XSa-QX4AvJdselMgY4qHeZJd-y9H_zduY2B6t4F-8oXiEl9d3Yf-rcEuP9HWDoY0MdxrjpRSKsAckWog3t15E5YlSJQYwKZ8CaBcisHQmBaTouUGQBJEcjBPRrK_tcFDesLK33uNR3NWKdD56zlRm170wbKPUiSnh4EhBYqzqAySgiDTI_8lYuIk8VGhTj9WaL-NMYhGPEkMBsxLUoOlumlw",
+      "structured_formatting": {
+        "main_text": "Райкауски-лэйн",
+        "main_text_matched_substrings": [
+          {
+            "length": 4,
+            "offset": 0
+          }
+        ],
+        "secondary_text": "Гранвилл, Нью-Йорк, Соединенные Штаты Америки"
+      },
+      "terms": [
+        {
+          "offset": 0,
+          "value": "Райкауски-лэйн"
+        },
+        {
+          "offset": 16,
+          "value": "Гранвилл"
+        },
+        {
+          "offset": 26,
+          "value": "Нью-Йорк"
+        },
+        {
+          "offset": 36,
+          "value": "Соединенные Штаты Америки"
+        }
+      ],
+      "types": [ "route", "geocode" ]
+    }
+  ],
+  "status": "OK"
+}
